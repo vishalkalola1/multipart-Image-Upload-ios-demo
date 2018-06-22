@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = 'MultipartImageUploadSwift4.0'
+s.name             = 'multipart-Image-Upload-ios-demo'
 s.version          = '1.0'
 s.summary          = 'Upload image using Multipart in swift'
 s.description      = <<-DESC
