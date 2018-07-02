@@ -27,7 +27,7 @@ open class VMultipartImage: NSObject {
     
     public var request : URLRequest!
     
-    init(_ postUrl:String,paramters:Parameters, image:UIImage, imagekey:String, imageName:String, MimeType:MimeType? = .jpeg, Debug:Bool? = true) {
+    public init(_ postUrl:String,paramters:Parameters, image:UIImage, imagekey:String, imageName:String, MimeType:MimeType? = .jpeg, Debug:Bool? = true) {
         super.init()
         guard let mediaImage = MediaData(image, key: imagekey, imageName: imageName, mimeType:MimeType!) else { return }
         guard let url = URL(string: postUrl) else { return }
