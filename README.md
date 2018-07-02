@@ -5,9 +5,9 @@
 ```
 pod 'multipart-Image-Upload-ios-demo'
 ```
-#### if you use above Parameters and URL this is the demo/ Debug URL for library. so in init mwthod i have passed the debug as true.
-#### In you URL and parameter you need to pass debug As a false.
-#### you can upload only three type of image like JPEG, PNG and GIF
+- If you use above Parameters and URL this is the demo/ Debug URL for library. so in init mwthod i have passed the debug as true.
+- In you URL and parameter you need to pass debug As a false.
+- You can upload only three type of image like JPEG, PNG and GIF
 
 
 
