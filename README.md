@@ -1,6 +1,6 @@
 # multipart-Image-Upload-ios-demo
 
-### Now You can Use this class using below pods
+## PODS
 
 ```
 pod 'multipart-Image-Upload-ios-demo'
